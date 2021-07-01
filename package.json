@@ -1,0 +1,31 @@
+{
+  "name": "electron-git",
+  "version": "1.0.0",
+  "description": "Un editeur de code avec des fonctionnaliter de git",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lucas-dev-974/Electron-Git.git"
+  },
+  "keywords": [
+    "git",
+    "electron"
+  ],
+  "author": "lucas.lvn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lucas-dev-974/Electron-Git/issues"
+  },
+  "homepage": "https://github.com/Lucas-dev-974/Electron-Git#readme",
+  "devDependencies": {
+    "electron": "^13.1.4"
+  },
+  "dependencies": {
+    "directory-tree": "^2.2.9",
+    "electron-reload": "^1.5.0",
+    "simple-git": "^2.40.0"
+  }
+}
